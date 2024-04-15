@@ -1,16 +1,14 @@
 import './App.css';
-import TheHeader from './UI/TheHeader';
+import TheMap from './components/Map/TheMap';
+import TheHeader from './components/UI/TheHeader';
 
 function App() {
   return (
     <>
       <TheHeader />
+      <TheMap />
     </>
   );
-
-  // Basic Header
-
-  // Map
 
   // Side Bar
 }
